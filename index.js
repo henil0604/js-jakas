@@ -33,7 +33,6 @@ FILE.content = fs.readFileSync(FILE.path, "utf8");
 
 const CODE = Codify(FILE.content)
 
-// console.log(CODE)
 
 let Context = CreateContext(FILE);
 
