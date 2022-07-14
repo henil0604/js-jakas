@@ -1,0 +1,23 @@
+{
+  "name": "js-jakas",
+  "version": "1.0.0",
+  "description": "Javascript Library for wrapping the javascript code into more hydrated environment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"npm run build\"",
+    "build": "npm i -g ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "pkg-install": "^1.0.0",
+    "require-like": "^0.1.2",
+    "vm2": "^3.9.10",
+    "yargs": "^17.5.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "js-jakas": "./index.js"
+  }
+}
